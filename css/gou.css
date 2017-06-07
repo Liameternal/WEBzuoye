@@ -1,0 +1,137 @@
+body{
+	background-color: #efefef;
+	font-family: "宋体";
+}
+
+div {
+    display: block;
+}
+
+div#wrapper {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 1129px;
+    text-align: left;
+    background: transparent url(/ui/wrapper.gif) top left repeat-y;
+    /*border: dashed;*/
+   -webkit-box-shadow: #666 0px 0px 10px;  
+   -moz-box-shadow: #666 0px 0px 10px;  
+   box-shadow: #666 0px 0px 10px;  
+}
+div#header, div#header_index {
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    width: 1100px;
+    height: 90px;
+    background-color: #efefef;
+}
+div#navfirst {
+    height: 55px;
+    width: 1100px;
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    border: double;
+}
+div#maincontent {
+    float: left;
+    margin: 12px 0 50px;
+    padding: 0;
+    border: 0;
+    width: 1100px;
+    background: transparent;
+}
+div#footer {
+	text-align: center;
+    clear: both;
+    margin: 0;
+    padding-bottom:0;
+    margin-left: 12px;
+    width: 1100px;
+    height: 20px;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+}
+div#yi,#san,#er,#si{
+	margin: 0 0 12px 12px;
+	width: 1100px;
+	height: 400px;
+	border-style: solid;
+	border-width:1px ;
+}
+div#biaodan{
+	margin: 0 0 0 12px;
+	width: 1100px;
+	height: 500px;
+	border: solid;
+	background-image: url("../img/timg (4).jpg");
+	background-position:center;
+}
+div#biaodan_neirong{
+	width: 400px;
+	height: 200px;
+	border: solid;
+	margin: 50px auto auto 200px;
+}
+div.bdsharebuttonbox{
+	margin: 0;
+	text-align: right;
+}
+#kuangnei{
+	width: 580px;
+	float: right;
+}
+.a{
+	display: inline;
+	margin: 85px;
+}
+a{
+	text-decoration: none;	
+	cursor: pointer;
+}
+a.biaoti:link{
+	color: black;
+}
+a.biaoti:visited{
+	color: black;
+}
+a.biaoti:hover{
+	color: red;
+}
+img{
+	margin-right:10px ;
+	margin-bottom: 2px;
+	margin-left: 12px;
+	float: left;
+}
+img.b{
+	float: left;
+	margin: 12px;
+}
+img.huikui_beijing{
+	width: 1100px;
+	margin: auto;
+}
+p{
+	margin-top: 0px;
+}
+h1{
+	    font-size: -webkit-xxx-large;
+}
+p.jianjie{
+	margin: 12px;
+}
+.wenben{
+	margin: 50px auto auto 200px;
+}
+a:visited{
+	color: gray;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: black;
+}
